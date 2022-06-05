@@ -1,0 +1,13 @@
+# This file contains values from Cookiecutter
+
+default_context:
+  project_name: "pixelart"
+  project_description: "PixelArt is a prototype meant to teach myself desktop UI development"
+  organization: "pixelart"
+  license: "GNU AGPL v3.0"
+  minimal_python_version: 3.9
+  github_name: "pierre-luc.perron"
+  email: "pierre-luc.perron@protonmail.com"
+  version: "0.1.0"
+  line_length: "88"
+  create_example_template: "none"
