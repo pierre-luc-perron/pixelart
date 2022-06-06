@@ -312,7 +312,19 @@ More information [about docker](https://github.com/pierre-luc.perron/pixelart/tr
 </details>
 
 <details>
-<summary>9. Cleanup</summary>
+<summary>9. Run pixelart gui</summary>
+<p>
+
+
+```bash
+make run
+```
+
+</p>
+</details>
+
+<details>
+<summary>10. Cleanup</summary>
 <p>
 Delete pycache files
 

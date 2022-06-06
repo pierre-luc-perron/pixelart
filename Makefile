@@ -43,6 +43,9 @@ test:
 	PYTHONPATH=$(PYTHONPATH) poetry run pytest -c pyproject.toml --cov-report=html --cov=pixelart tests/
 	poetry run coverage-badge -o assets/images/coverage.svg -f
 
+run:
+	PYTHONPATH=$(PYTHONPATH) poetry run python pixelart
+
 .PHONY: check-codestyle
 check-codestyle:
 	poetry run isort --diff --check-only --settings-path pyproject.toml ./
