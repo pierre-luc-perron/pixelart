@@ -31,6 +31,7 @@ classifiers = [  #! Update me
 
 [tool.poetry.dependencies]
 python = "^3.9"
+PySimpleGUI = "^4.60.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.1"
