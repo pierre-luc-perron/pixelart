@@ -404,3 +404,24 @@ This project is licensed under the terms of the `GNU AGPL v3.0` license. See [LI
 ## Credits [![🚀 Your next Python package needs a bleeding-edge project structure.](https://img.shields.io/badge/python--package--template-%F0%9F%9A%80-brightgreen)](https://github.com/TezRomacH/python-package-template)
 
 This project was generated with [`python-package-template`](https://github.com/TezRomacH/python-package-template)
+
+## Roadmap until version 1.0
+
+Mandatory features:
+* [x] Select color from the color palette;
+* [x] Apply selected color to a single pixel on the drawing board;
+* [ ] Export drawing board to .ppm;
+* [ ] Save/serialize project as .pixel;
+* [ ] Load/deserialize .pixel as project.
+
+Important features:
+* [ ] Change palette colors;
+* [ ] Change drawing board height and width;
+* [ ] Personalize window icon
+
+Optional features:
+* [ ] Toggle drawing grid;
+* [ ] Zoom in/out;
+* [ ] Mirror pixels as per axes (X, Y, diagonals);
+* [ ] Set background color;
+* [ ] Include documentation in help menu.
